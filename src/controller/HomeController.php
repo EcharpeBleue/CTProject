@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace App\CTProject\controller;
 
-class AccueilController extends BaseController
+class HomeController extends BaseController
 {
     public function home():void
     {

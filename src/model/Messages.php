@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 namespace App\CTProject\model;
-use DateTime;
 
 class Messages
 {
