@@ -5,8 +5,8 @@ namespace App\CTProject\controller;
 
 class HomeController extends BaseController
 {
-    public function home():void
+    public function index():void
     {
-        $this->view("Accueil/home");
+        $this->view("Accueil/index");
     }
 }
