@@ -8,10 +8,10 @@ class Messages
 {
     private int $_id;
     private string $_messageSent;
-    private DateTime $_messageDate;
+    private \DateTime $_messageDate;
     private User $_userId;
 
-    public function __construct(int $id, string $messageSent, DateTime $messageDate, User $userId)
+    public function __construct(int $id, string $messageSent, \DateTime $messageDate, User $userId)
     {
         $this->_id = $id;
         $this->_messageSent = $messageSent;
@@ -27,7 +27,7 @@ class Messages
     {
         return $this->_messageSent;
     }
-    public function getMessageDate():DateTime
+    public function getMessageDate():\DateTime
     {
         return $this->_messageDate;
     }
@@ -39,7 +39,7 @@ class Messages
     {
         $this->_messageSent = $newMessageSent;
     }
-    public function setMessageDate(DateTime $currentDate):void
+    public function setMessageDate(\DateTime $currentDate):void
     {
         $this->_messageDate = $currentDate;
     }
