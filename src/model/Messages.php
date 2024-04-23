@@ -53,13 +53,13 @@ class Messages
 
     public static function updateMessage(Messages $message)
     {
-        $statement = Database::getInstance()->getConnexion()->prepare('UPDATE `MESSAGES` set messageSent=:messageSent WHERE id =:id');
+        $statement = Database::getInstance()->getConnexion()->prepare('UPDATE `MESSAGES` set messageSent=:messageSent WHERE id =:id;');
         $statement->execute(['messageSent'=>$message->getMessageSent(), 'id'=>$message->getId()]);
     }
 
     public static function readMessage(int $id):Messages
     {
-        $statement = Database::getInstance()->getConnexion()->prepare('SELECT * FROM `MESSAGES` WHERE id=:id');
+        $statement = Database::getInstance()->getConnexion()->prepare('SELECT * FROM `MESSAGES` WHERE id=:id;');
         $statement->execute(['id' => $id]);
         if ($row = $statement->fetch())
         {
@@ -70,7 +70,7 @@ class Messages
     }
     public static function deleteMessage(Messages $id)
     {
-        $statement = Database::getInstance()->getConnexion()->prepare('DELETE FROM `MESSAGES` where id=:id');
+        $statement = Database::getInstance()->getConnexion()->prepare('DELETE FROM `MESSAGES` where id=:id;');
         $statement->execute(['id'=>$id->getId()]);
     }
 }
