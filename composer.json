@@ -2,7 +2,9 @@
     "name": "jpa/ct-project",
     "autoload": {
         "psr-4": {
-            "Jpa\\CtProject\\": "src/"
+            "App\\CtProject\\model\\": "src/model",
+            "App\\CtProject\\router\\": "src/router",
+            "App\\CtProject\\controller\\": "src/controller"
         }
     },
     "authors": [
