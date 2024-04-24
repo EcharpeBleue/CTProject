@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
 require_once dirname(__DIR__) .'/vendor/autoload.php';
-use App\CTProject\router\HttpRequest;
-use App\CTProject\router\Router;
+use app\CTProject\router\HttpRequest;
+use app\CTProject\router\Router;
 try
 {
    $httpRequest = new HttpRequest();
