@@ -1,10 +1,7 @@
 <?php
-
-declare(strict_types=1);
-
-namespace App\CTProject\controller;
-use App\CTProject\router\HttpRequest;
-use App\CTProject\router\ViewNotFoundException;
+namespace app\CTProject\controller;
+use app\CTProject\router\HttpRequest;
+use app\CTProject\router\ViewNotFoundException;
     abstract class BaseController
     {
         protected HttpRequest $_httpRequest;
@@ -15,7 +12,6 @@ use App\CTProject\router\ViewNotFoundException;
             $this->_httpRequest = $httpRequest;
             $this->_params=$httpRequest->getParams();
         }
-        
         public function view($filename)
         {
             $viewFile= './../templates/' . $filename . '.php';
@@ -36,5 +32,14 @@ use App\CTProject\router\ViewNotFoundException;
         {
             $this->_params[$name] = $value;
         }
-    
+        public function getParams()
+        {
+            return $this->_params;
+        }
+
+        public function redirectTo(string $route)
+        {
+            header("Location: $route");
+            die();
+        }
     }

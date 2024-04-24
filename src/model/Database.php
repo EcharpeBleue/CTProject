@@ -1,5 +1,5 @@
 <?php
-namespace App\CTProject\model;
+namespace app\CTProject\model;
 
 class Database
 {

@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace App\CTProject\model;
+namespace app\CTProject\model;
 class User
 {
     private int $_id;

@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-namespace App\CTProject\router;
+namespace app\CTProject\router;
 
     class HttpRequest
     {

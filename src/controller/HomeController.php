@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace App\CTProject\controller;
+namespace app\CTProject\controller;
 
 class HomeController extends BaseController
 {

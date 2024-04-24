@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace App\CTProject\router;
+namespace app\CTProject\router;
 
-    class  Router
+    class Router
     {
         private mixed $_listRoute;
         private static ?Router $_instance= null;
@@ -23,7 +23,7 @@ namespace App\CTProject\router;
             foreach($route->params as $params)
             {
                 if ($params->type =="integer")
-                    $patternParams.='/\d+';
+                    $patternParams.='/\d';
                 else
                     $patternParams.='/(.*?)';
             }
