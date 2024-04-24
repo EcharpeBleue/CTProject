@@ -1,6 +1,6 @@
 [
     {
-        "path": "/",
+        "path": "/home",
         "controller": "Home",
         "action" : "index",
         "method" : "GET",
