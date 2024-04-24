@@ -1,9 +1,10 @@
 [
     {
-        "path": "/home",
-        "controller": "Home",
+        "path" : "/",
+        "controller" : "Home",
         "action" : "index",
         "method" : "GET",
-        "params" : []
+        "params" : [],
+        "ranks": []
     }
 ]

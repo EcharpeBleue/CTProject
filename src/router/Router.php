@@ -23,7 +23,7 @@ namespace App\CTProject\router;
             foreach($route->params as $params)
             {
                 if ($params->type =="integer")
-                    $patternParams.='/\d';
+                    $patternParams.='/\d+';
                 else
                     $patternParams.='/(.*?)';
             }

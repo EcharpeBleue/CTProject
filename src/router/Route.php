@@ -42,9 +42,10 @@ class Route
     public function run(HttpRequest $httpRequest)
     {
         $controller = null;
-        $controllerName = "app\guild\controller\\".$this->_controller . "Controller";
+        $controllerName = "app\CTProject\controller\\".$this->_controller . "Controller";
         if (class_exists($controllerName)) {
             $controller = new $controllerName($httpRequest);
+            var_dump($controllerName);
             if (method_exists($controller, $this->_action)) {
                 $controller->{$this->_action}(...$httpRequest->getParams());
             } else {
