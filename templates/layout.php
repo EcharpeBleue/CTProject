@@ -10,6 +10,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
+<section id="headerArea">
+        Cosne Transports
+        <div id="linksContainer">
+            <a class="linksArea" href=""> Machin </a>
+            <a class="linksArea" href=""> Truc </a>
+            <a class="linksArea" href=""> Bidule </a>
+        </div>
+    </section>
     <?=$content?>
 </body>
 </html>

@@ -1,13 +1,5 @@
 <html>
 <body>
-    <section id="headerArea">
-        Cosne Transports
-        <div id="linksContainer">
-            <a class="linksArea" href=""> Machin </a>
-            <a class="linksArea" href=""> Truc </a>
-            <a class="linksArea" href=""> Bidule </a>
-        </div>
-    </section>
     <div id="carouselContainer">
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
