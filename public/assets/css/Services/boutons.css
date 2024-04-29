@@ -1,0 +1,20 @@
+.button-container {
+    height: 100vh; /* Full height of the viewport */
+    display: flex; /* Use flexbox to distribute space */
+}
+
+.button {
+    flex: 1; /* Each button takes equal space */
+    background-color: transparent; /* Transparent background */
+    color: white; /* White text color */
+    border: none; /* No border */
+    font-size: 1.5em; /* Larger text */
+}
+
+#button1 {
+    background-color: rgba(0, 0, 255, 0.5); /* Semi-transparent blue */
+}
+
+#button2 {
+    background-color: rgba(255, 0, 0, 0.5); /* Semi-transparent red */
+}

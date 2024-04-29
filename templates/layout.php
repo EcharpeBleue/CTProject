@@ -11,7 +11,7 @@
 </head>
 <body>
 <section id="headerArea">
-        Cosne Transports
+        AGS
         <div id="linksContainer">
             <a class="linksArea" href="/Home"> Accueil </a>
             <a class="linksArea" href="/Connexion"> Se Connecter </a>
