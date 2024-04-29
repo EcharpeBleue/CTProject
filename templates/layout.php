@@ -13,9 +13,10 @@
 <section id="headerArea">
         Cosne Transports
         <div id="linksContainer">
-            <a class="linksArea" href=""> Machin </a>
-            <a class="linksArea" href=""> Truc </a>
-            <a class="linksArea" href=""> Bidule </a>
+            <a class="linksArea" href="/Home"> Accueil </a>
+            <a class="linksArea" href="/Connexion"> Se Connecter </a>
+            <a class="linksArea" href="/Services"> Services </a>
+            <a class="linksArea" href="/Contact"> Contact </a>
         </div>
     </section>
     <?=$content?>

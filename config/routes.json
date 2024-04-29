@@ -14,5 +14,29 @@
         "method" : "GET",
         "params" : [],
         "ranks": []
+    },
+    {
+        "path" : "/Services",
+        "controller" : "Services",
+        "action" : "index",
+        "method" : "GET",
+        "params" : [],
+        "ranks": []
+    },
+    {
+        "path" : "/Connexion",
+        "controller" : "Connexion",
+        "action" : "index",
+        "method" : "GET",
+        "params" : [],
+        "ranks": []
+    },
+    {
+        "path" : "/Contact",
+        "controller" : "Contact",
+        "action" : "index",
+        "method" : "GET",
+        "params" : [],
+        "ranks": []
     }
 ]
