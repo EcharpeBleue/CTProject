@@ -1,20 +1,20 @@
 .button-container {
-    height: 100vh; /* Full height of the viewport */
-    display: flex; /* Use flexbox to distribute space */
+    height: 100vh;
+    display: flex;
 }
 
 .button {
-    flex: 1; /* Each button takes equal space */
-    background-color: transparent; /* Transparent background */
-    color: white; /* White text color */
-    border: none; /* No border */
-    font-size: 1.5em; /* Larger text */
+    flex: 1;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1.5em;
 }
 
 #button1 {
-    background-color: rgba(0, 0, 255, 0.5); /* Semi-transparent blue */
+    background-color: rgba(0, 0, 255, 0.5);
 }
 
 #button2 {
-    background-color: rgba(255, 0, 0, 0.5); /* Semi-transparent red */
+    background-color: rgba(255, 0, 0, 0.5);
 }
