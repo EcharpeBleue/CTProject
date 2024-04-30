@@ -1,0 +1,9 @@
+.moderationBox
+{
+    background-color:lightskyblue;
+}
+.moderationTitle
+{
+    display: flex;
+    justify-content: center;
+}

@@ -1,4 +1,4 @@
-<html>
+<script src="./assets/js/Caroussel/carousselScript.js" defer></script>
 <body>
     <div id="carouselContainer">
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -25,6 +25,3 @@
     </div>
     <button id="pauseButton" class="btn btn-warning">Pause</button>
     <button id="playButton" class="btn btn-success">Play</button>
-</body>
-
-</html>

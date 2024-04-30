@@ -38,5 +38,21 @@
         "method" : "GET",
         "params" : [],
         "ranks": []
+    },
+    {
+        "path" : "/ModerationServices",
+        "controller" : "ModerationServices",
+        "action" : "index",
+        "method" : "GET",
+        "params" : [],
+        "ranks" : []
+    },
+    {
+        "path" : "/ModerationMessages",
+        "controller" : "ModerationMessages",
+        "action" : "index",
+        "method" : "GET",
+        "params" : [],
+        "ranks" : []
     }
 ]
