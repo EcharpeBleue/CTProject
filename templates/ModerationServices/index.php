@@ -9,6 +9,7 @@
                 <th scope="col">Nom</th>
                 <th scope="col">Description</th>
                 <th scope="col">Prix</th>
+                <th scope="col">Sélectionner</th>
             </tr>
         </thead>
         <tbody>
@@ -18,6 +19,11 @@
                 <td>Entretien simple</td>
                 <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptate obcaecati. Modi quam iusto eum voluptatibus? Ipsam accusamus officia cupiditate quam assumenda vero, impedit laborum id! Obcaecati commodi quam ipsum.</td>
                 <td>200€</td>
+                <td>
+                    <div>
+                        <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                    </div>
+                </td>
             </tr>
             <tr class="table-info">
                 <th scope="row">2</th>

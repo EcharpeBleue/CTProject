@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
 }
+
 #headerSticky {
     position: sticky;
     top: 0;
@@ -42,14 +43,18 @@
     height: 100%;
     object-fit: cover;
 }
-.footerCenterElements
-{
+
+.footerCenterElements {
     display: flex;
     justify-content: center;
     gap: 10vh;
 }
-.footerCenterElements img
-{
+
+.footerCenterElements img {
     max-width: 60vh;
     max-height: 60vh;
+}
+
+nav a {
+    text-decoration: none;
 }

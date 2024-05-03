@@ -12,13 +12,13 @@
 </head>
 
 <body>
-    <section id="headerSticky">
+    <nav id="headerSticky">
         <section id="logoArea">
             <div class="col-6">
                 <a href="/Home"> <img src="public/assets/imgs/logo.jpg"></a>
             </div>
         </section>
-        <section id="headerArea"><a href="/Home">AGS</a>
+        <section id="headerArea">
             <div id="linksContainer">
                 <a class="linksArea" href="/Home"> Accueil </a>
                 <a class="linksArea" href="/Connexion"> Se Connecter </a>
@@ -28,7 +28,7 @@
                 <a class="linksArea" href="/ModerationMessages"> Modération : Messages </a>
             </div>
         </section>
-    </section>
+    </nav>
     <?= $content ?>
 
     <footer>

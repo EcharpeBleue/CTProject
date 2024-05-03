@@ -1,6 +1,6 @@
 let lastScrollTop = 0;
 window.addEventListener("scroll", function () {
-    let st = window.pageYOffset || document.documentElement.scrollTop;
+    let st = window.scrollY || document.documentElement.scrollTop;
     if (st < lastScrollTop) {
         document.getElementById('headerSticky').style.top = "0";
     } else {
