@@ -8,7 +8,7 @@
 </head>
 <body>
     <h2>Connexion</h2>
-    <form action="/submit-your-login-form" method="POST">
+    <form action="/login" method="GET">
         <div>
             <label for="username">Identifiant:</label>
             <input type="text" id="username" name="username" required>

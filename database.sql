@@ -25,3 +25,5 @@ CREATE TABLE `MESSAGES` (
 
 ALTER TABLE `SERVICES` ADD FOREIGN KEY (idUser) REFERENCES `USER` (id);
 ALTER TABLE `MESSAGES` ADD FOREIGN KEY (idUser) REFERENCES `USER` (id);
+
+INSERT INTO `USER` (username, userEmail, userPassword) VALUES ('admin', 'direction@cosnetransports.fr', 'motdepasse');
