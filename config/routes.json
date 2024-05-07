@@ -40,6 +40,14 @@
         "ranks": []
     },
     {
+        "path" : "/Moderation",
+        "controller" : "Moderation",
+        "action" : "index",
+        "method" : "GET",
+        "params" : [],
+        "ranks" : []
+    },
+    {
         "path" : "/ModerationServices",
         "controller" : "ModerationServices",
         "action" : "index",
@@ -50,6 +58,22 @@
     {
         "path" : "/ModerationMessages",
         "controller" : "ModerationMessages",
+        "action" : "index",
+        "method" : "GET",
+        "params" : [],
+        "ranks" : []
+    },
+    {
+        "path" : "/Login",
+        "controller" : "Login",
+        "action" : "index",
+        "method" : "GET",
+        "params" : [],
+        "ranks" : []
+    },
+    {
+        "path" : "/Connect",
+        "controller" : "Connect",
         "action" : "index",
         "method" : "GET",
         "params" : [],
