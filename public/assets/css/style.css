@@ -16,6 +16,7 @@
 
 .linksArea {
     color: white;
+    text-decoration: none;
 }
 
 #linksContainer {
@@ -53,8 +54,4 @@
 .footerCenterElements img {
     max-width: 60vh;
     max-height: 60vh;
-}
-
-nav a {
-    text-decoration: none;
 }

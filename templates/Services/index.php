@@ -1,4 +1,3 @@
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="./assets/css/Services/boutons.css">
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
@@ -6,8 +5,8 @@
 <script src="script.js" defer></script>
 <!-- index.html -->
 <div class="button-container">
-    <button class="button" id="button1">Atelier</button>
-    <button class="button" id="button2">Garage</button>
+    <button id="button1">Atelier</button>
+    <button id="button2">Garage</button>
 </div>
 
 
