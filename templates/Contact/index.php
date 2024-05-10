@@ -4,30 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactez-Nous</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        form {
-            display: flex;
-            flex-direction: column;
-            width: 300px;
-            margin: 40px;
-        }
-        label {
-            margin-bottom: 10px;
-        }
-        input, textarea {
-            margin-bottom: 20px;
-            padding: 10px;
-            font-size: 16px;
-        }
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="./assets/css/Contact/style.css">
 </head>
 <body>
     <h1>Contactez-Nous</h1>

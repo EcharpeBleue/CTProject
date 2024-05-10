@@ -5,3 +5,8 @@ form {
     min-height: 100vh;
     margin: 0 auto;
 }
+h2
+{
+    display: flex;
+    justify-content: center;
+}
