@@ -55,3 +55,7 @@
     max-width: 60vh;
     max-height: 60vh;
 }
+.sticky-message {
+    position: sticky;
+    top: 0;
+}

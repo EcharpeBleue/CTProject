@@ -62,21 +62,5 @@
         "method" : "GET",
         "params" : [],
         "ranks" : []
-    },
-    {
-        "path" : "/Login",
-        "controller" : "Login",
-        "action" : "index",
-        "method" : "GET",
-        "params" : [],
-        "ranks" : []
-    },
-    {
-        "path" : "/Connect",
-        "controller" : "Connect",
-        "action" : "index",
-        "method" : "GET",
-        "params" : [],
-        "ranks" : []
     }
 ]

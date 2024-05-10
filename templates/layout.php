@@ -17,6 +17,15 @@
             <div class="col-6">
                 <a href="/Home"> <img src="public/assets/imgs/logo.jpg"></a>
             </div>
+            <div class="sticky-message">
+        <?php
+        if (isset($_SESSION['username'])) {
+            $username = $_SESSION['username'];
+            echo "Nom d'utilisateur: " . $username;
+        } else {
+            echo "Utilisateur non connecté.";
+        }
+        ?></div>
         </section>
         <section id="headerArea">
             <div id="linksContainer">
