@@ -56,7 +56,7 @@ class Messages
         $statement->execute(['messageSent'=>$message->getMessageSent(), 'id'=>$message->getId()]);
     }
 
-    public static function readMessage(int $id):Messages
+    public static function readMessage(int $id):?Messages
     {
         $statement = Database::getInstance()->getConnexion()->prepare('SELECT * FROM `MESSAGES` WHERE id=:id;');
         $statement->execute(['id' => $id]);

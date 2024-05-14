@@ -1,12 +1,12 @@
 <?php
-$servername = "localhost";
+$servername = "PHP-SERVER-CTProject";
 $username = "admin";
 $password = "motdepasse";
 $dbname = "CTDB";
 $conn = null;
 
 try {
-    $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+    $conn = new PDO("mysql:host=$servername;port=3306;dbname=$dbname", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     if (isset($_POST['connexion']) && $_POST['connexion'] == 'Connexion') {
