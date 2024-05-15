@@ -34,8 +34,11 @@
                 <a class="linksArea" href="/Connexion"> Se Connecter </a>
                 <a class="linksArea" href="/Services"> Services </a>
                 <a class="linksArea" href="/Contact"> Contact </a>
+                <?php
+                if (isset($_SESSION['username'])){?>
                 <a class="linksArea" href="/ModerationServices"> Modération : Services </a>
                 <a class="linksArea" href="/ModerationMessages"> Modération : Messages </a>
+                <?php } ?>
             </div>
         </section>
     </nav>

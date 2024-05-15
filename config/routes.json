@@ -32,6 +32,22 @@
         "ranks": []
     },
     {
+        "path" : "/Login",
+        "controller" : "Login",
+        "action" : "index",
+        "method" : "POST",
+        "params" : [],
+        "ranks" : []
+    },
+    {
+        "path" : "/Logout",
+        "controller" : "Logout",
+        "action" : "index",
+        "method" : "GET",
+        "params" : [],
+        "ranks" : []
+    },
+    {
         "path" : "/Contact",
         "controller" : "Contact",
         "action" : "index",
