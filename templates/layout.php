@@ -9,13 +9,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="./assets/js/headerSticky/headerSticky.js" defer></script>
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
 </head>
 
 <body>
     <nav id="headerSticky">
         <section id="logoArea">
             <div class="col-6">
-                <a href="/Home"> <img src="public/assets/imgs/logo.jpg"></a>
+                <a href="https://www.patrice-antoine.com/"> <img src="public/assets/imgs/logo.jpg"></a>
             </div>
             <div class="sticky-message">
         <?php
@@ -44,9 +45,9 @@
         <div class="footerCenterElements">
             <img src="public/assets/imgs/logo.jpg" alt="">
         </div>
-        <b class="footerCenterElements">03 26 66 98 00</b>
-        <div class="footerCenterElements">Rue de la Nau des Vignes ZA</div>
-        <div class="footerCenterElements">51520 La Veuve</div>
+        <address class="footerCenterElements"> <b>03 26 66 98 00 </b></address>
+        <address class="footerCenterElements">Rue de la Nau des Vignes ZA</address>
+        <address class="footerCenterElements">51520 La Veuve</address>
         <div class="col footerCenterElements">
             <a href="https://www.patrice-antoine.com/plan-site.php"> Plan du site </a>
             <a href="https://www.patrice-antoine.com/ressources/ajax/mentions_legales_box.php"> Mentions légales </a>

@@ -1,3 +1,8 @@
+html
+{
+    font-family: 'Rubik';
+    font-weight: normal;
+}
 #headerArea {
     background-color: grey;
     color: white;
