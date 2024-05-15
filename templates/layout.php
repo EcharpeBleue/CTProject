@@ -19,25 +19,31 @@
                 <a href="https://www.patrice-antoine.com/"> <img src="public/assets/imgs/logo.jpg"></a>
             </div>
             <div class="sticky-message">
-        <?php
-        if (isset($_SESSION['username'])) {
-            $username = $_SESSION['username'];
-            echo "Nom d'utilisateur: " . $username;
-        } else {
-            echo "Utilisateur non connecté.";
-        }
-        ?></div>
+                <?php
+                if (isset($_SESSION['username'])) {
+                    $username = $_SESSION['username'];
+                    echo "Nom d'utilisateur: " . $username;
+                } else {
+                    echo "Utilisateur non connecté.";
+                }
+                ?></div>
         </section>
         <section id="headerArea">
             <div id="linksContainer">
                 <a class="linksArea" href="/Home"> Accueil </a>
-                <a class="linksArea" href="/Connexion"> Se Connecter </a>
+                <?php
+                if (!isset($_SESSION['username'])) { ?>
+                    <a class="linksArea" href="/Connexion"> Se Connecter </a>
+                <?php }
+                if (isset($_SESSION['username'])) { ?>
+                    <a class="linksArea" href="/Logout"> Se déconnecter </a>
+                <?php } ?>
                 <a class="linksArea" href="/Services"> Services </a>
                 <a class="linksArea" href="/Contact"> Contact </a>
                 <?php
-                if (isset($_SESSION['username'])){?>
-                <a class="linksArea" href="/ModerationServices"> Modération : Services </a>
-                <a class="linksArea" href="/ModerationMessages"> Modération : Messages </a>
+                if (isset($_SESSION['username'])) { ?>
+                    <a class="linksArea" href="/ModerationServices"> Modération : Services </a>
+                    <a class="linksArea" href="/ModerationMessages"> Modération : Messages </a>
                 <?php } ?>
             </div>
         </section>
